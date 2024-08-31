@@ -1,6 +1,6 @@
 function openNav() {
-    document.getElementById("pageSideNav").style.width = "35vw";
-    document.getElementById("pageSideNavFooter").style.width = "35vw";
+    document.getElementById("pageSideNav").style.width = "75vw";
+    document.getElementById("pageSideNavFooter").style.width = "75vw";
     setTimeout(showFooter, 250)
 }
 function showFooter(){
