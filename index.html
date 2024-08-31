@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/sideNav.js"></script>
     <title>yvern</title>
 </head>
 <body>
-    
+    <header>
+        <div class="burger">
+            <span onclick="openNav()">
+                <button>
+                    <img src="images/burger-menu.svg" alt="">
+                </button>
+            </span>
+        </div>
+        <div id="headerText">
+            <h1>YVERN</h1>
+        </div>
+    </header>
+    <div id="pageSideNav" class="sideNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="booking.html">Booking</a>
+        <a href="information.html">Information</a>
+    </div>
+        <div id="pageSideNavFooter" class="sideNavFooter">
+            <div class="sideNavFooterIcons">
+            <a href="index.html">
+                <img src="images/instagram.svg" alt="">
+            </a>
+            <a href="index.html">
+                <img src="images/twitterx.svg" alt="">
+            </a>
+            <a href="index.html">
+                <img src="images/youtube.svg" alt="">
+            </a>
+            <a href="index.html">
+                <img src="images/instagram.svg" alt="">
+            </a>
+            </div>
+        </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="events.html">Events</a>
+            </li>
+            <li>
+                <a href="booking.html">Booking</a>
+            </li>
+            <li>
+                <a href="information.html">Information</a>
+            </li>
+        </ul>
+    </nav>
 </body>
 </html>
