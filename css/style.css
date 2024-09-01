@@ -170,7 +170,7 @@ button {
         width: 30px;
         height: 30px;
     }
-    ::-webkit-scrol.lbar{
+    ::-webkit-scrollbar{
         display: none;
     }
     
