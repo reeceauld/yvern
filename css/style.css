@@ -4,29 +4,26 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
-.tangerine-regular {
-    font-family: "Tangerine", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
 .inter{
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-  }
+}
 body {
     width: 100vw;
-    background-color: rgb(110, 0, 0);
+    background-color: rgb(20, 20, 20);
     color: white;
 }
 header {
     width: 100vw;
     height: 75px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(10, 10, 10);
     display: flex;
+    
 
 }
 #headerText{
+
     width: 100vw;
     height: 75px;
     margin-top: 10px;
@@ -35,29 +32,34 @@ header {
     justify-content: center;
 }
 #headerText a{
+    
     color: white;
     text-decoration: none;
 }
 #headerText img{
     width: 90px;
-    font-family: "Tangerine";
 }
 nav {
     width: 100vw;
     height: 50px;
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(15, 15, 15);
     line-height: 50px;
+    display: flex;
+    justify-content: center;
 }
 nav ul {
-    width: 100vw;
+    width: 60vw;
     height: 50px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 nav ul li {
     list-style-type: none;
-    width: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li a:hover {
@@ -69,7 +71,8 @@ nav ul li a {
     color: white;
     text-decoration: none;
     text-transform: uppercase;
-    padding: 7.5px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 .burger {
     display: none;
@@ -109,6 +112,33 @@ button {
 .sideNavFooterIcons{
     display: none;
 }
+.mainContainer{
+    width: 100vw;
+}
+.previewContainer{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+#scPreview{
+    width: 80vw;
+}
+#scPreview iframe{
+    width: 100%;
+    height: 166px;
+    border-radius: 7.5px;
+}
+
+
+
+
+
+
+
+
+
 ::-webkit-scrollbar{
     display: none;
 }
@@ -125,7 +155,7 @@ button {
         z-index: 1;
         top: 0;
         left: 0;
-        background-color: rgb(0, 0, 0);
+        background-color: rgb(15, 15, 15);
         overflow-x: hidden;
         padding-top: 10vh;
         transition: 0.5s;
@@ -181,10 +211,6 @@ button {
         width: 30px;
         height: 30px;
     }
-    ::-webkit-scrollbar{
-        display: none;
-    }
-    
     .burger {
         position: absolute;
         display: flex;
